@@ -2,7 +2,7 @@
     "name": "harmstyler/contrast-ratio-calculator",
     "description": "Calculate contrast ratios of colors.",
     "type": "library",
-    "license": "LGPL 3.0",
+    "license": "LGPL-3.0",
     "authors": [
         {
             "name": "Tyler Harms",
