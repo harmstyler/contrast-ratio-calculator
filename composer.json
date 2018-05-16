@@ -1,0 +1,23 @@
+{
+    "name": "harmstyler/contrast-ratio-calculator",
+    "description": "Calculate contrast ratios of colors.",
+    "type": "library",
+    "license": "LGPL 3.0",
+    "authors": [
+        {
+            "name": "Tyler Harms",
+            "email": "tyler.harms@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "HarmsTyler\\ContrastRatioCalculator\\": "lib/ContrastRatioCalculator"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    }
+}
