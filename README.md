@@ -8,9 +8,9 @@ rates the contrast ratio against WCAG standards.
 ```php
 <?php
 
-use Blend\ContrastRatioCalculator\Color;
-use Blend\ContrastRatioCalculator\ContrastRatio;
-use Blend\ContrastRatioCalculator\WCAGContrastRating;
+use HarmsTyler\ContrastRatioCalculator\Color;
+use HarmsTyler\ContrastRatioCalculator\ContrastRatio;
+use HarmsTyler\ContrastRatioCalculator\WCAGContrastRating;
 
 $primaryColor = new Color();
 $primaryColor->setHex('#ffffff');
