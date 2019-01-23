@@ -2,10 +2,8 @@
 
 namespace HarmsTyler\ContrastRatioCalculator;
 
-
 /**
  * Class ContrastRatio
- * @package Blend\ContrastRatioCalculator
  */
 class ContrastRatio
 {
@@ -13,10 +11,12 @@ class ContrastRatio
      * @var float
      */
     private $ratio;
+
     /**
      * @var Color
      */
     private $primaryColor;
+
     /**
      * @var Color
      */
