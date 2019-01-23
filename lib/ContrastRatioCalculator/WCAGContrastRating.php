@@ -2,13 +2,16 @@
 
 namespace HarmsTyler\ContrastRatioCalculator;
 
-
 /**
  * Class WCAGContrastRating
- * @package Blend\ContrastRatioCalculator
  */
 class WCAGContrastRating
 {
+    const FAIL = 'fail';
+    const AA_LARGE = 'aa-large';
+    const AA = 'aa';
+    const AAA = 'aaa';
+
     /**
      * @var array
      */
@@ -20,16 +23,16 @@ class WCAGContrastRating
     public function __construct()
     {
         $this->ratings = [
-            'fail' => [
+            self::FAIL => [
                 'range' => [0, 3]
             ],
-            'aa-large' => [
+            self::AA_LARGE => [
                 'range' => [3, 4.5]
             ],
-            'aa' => [
+            self::AA => [
                 'range' => [4.5, 7]
             ],
-            'aaa' => [
+            self::AAA => [
                 'range' => [7, 22]
             ]
         ];

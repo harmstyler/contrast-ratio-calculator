@@ -5,7 +5,6 @@ namespace HarmsTyler\ContrastRatioCalculator;
 /**
  * Class Color
  * Set either a hex or an rgb color and the rest will be calculated.
- * @package Blend\ContrastRatioCalculator
  */
 class Color
 {
