@@ -26,7 +26,7 @@ final class ColorTest extends TestCase
         );
     }
 
-    public function testHexGenratesProperRgb(): void
+    public function testHexGeneratesProperRgb(): void
     {
         $color = Color::fromHex('#fff');
         $this->assertEquals(
